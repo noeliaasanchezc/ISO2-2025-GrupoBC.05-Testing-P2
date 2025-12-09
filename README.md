@@ -1,6 +1,6 @@
 # ISO2-2025-GrupoBC.05-Testing-P2
 
-Y la planificación de tareas será:  
+La planificación de tareas será:  
  # 🗂️ Planificación de Tareas
 
 | 📌 Problema | 👥 Pareja 1            | 👥 Pareja 2            | 👥 Pareja 3            |
