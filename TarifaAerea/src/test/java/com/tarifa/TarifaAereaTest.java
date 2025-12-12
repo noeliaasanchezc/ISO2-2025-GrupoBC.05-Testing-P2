@@ -13,10 +13,7 @@ public class TarifaAereaTest {
         tarifa = new TarifaAerea();
     }
 
-    // -----------------------------------------------
-    // TESTS ORIGINALES (ya cubren grandes bloques)
-    // -----------------------------------------------
-
+   
     @Test
     void testPajarillo() {
         assertEquals("Pajarillo",
@@ -71,11 +68,8 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(50, 1, false, false, true, "turista", "Europa", 10000, false));
     }
 
-    // -----------------------------------------------
-    // TESTS NUEVOS PARA SUBIR A +80% EN BRANCHES
-    // -----------------------------------------------
-
-    // 1) Joven trabajador, vive con padres PERO clase ≠ turista → Sin tarifa
+    
+    // Joven trabajador, vive con padres PERO clase ≠ turista → Sin tarifa
     @Test
     void branch_JovenTrabaja_ViveConPadres_PeroClaseIncorrecta() {
         String result = tarifa.calcularTarifaAerea(
@@ -83,7 +77,7 @@ public class TarifaAereaTest {
         assertEquals("Sin tarifa disponible", result);
     }
 
-    // 2) Conoce Europa — destino incorrecto
+    // Conoce Europa — destino incorrecto
     @Test
     void branch_ConoceEuropa_DestinoIncorrecto() {
         String result = tarifa.calcularTarifaAerea(
@@ -91,7 +85,7 @@ public class TarifaAereaTest {
         assertEquals("Sin tarifa disponible", result);
     }
 
-    // 3) Conoce el Mundo — destino NO válido
+    // Conoce el Mundo — destino NO válido
     @Test
     void branch_ConoceMundo_DestinoNoValido() {
         String result = tarifa.calcularTarifaAerea(
