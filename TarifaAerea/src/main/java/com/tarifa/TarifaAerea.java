@@ -1,8 +1,7 @@
 package com.tarifa;
 
-import java.util.Scanner;
-
 public class TarifaAerea {
+
     
     public String calcularTarifaAerea(
             int edad,
@@ -15,10 +14,16 @@ public class TarifaAerea {
             double ingresos,
             boolean viajaConNiños) {
 
+        // ============================
+        // 1) Tarifa Pajarillo
+        // ============================
         if (edad < 18 && vuelosAnuales >= 6) {
             return "Pajarillo";
         }
 
+        // ============================
+        // 2) Tarifa Gorrión
+        // ============================
         if (edad >= 18 && edad <= 25 &&
                 esEstudianteFuera &&
                 clase.equalsIgnoreCase("turista") &&
@@ -26,6 +31,9 @@ public class TarifaAerea {
             return "Gorrión";
         }
 
+        // ============================
+        // 3) Tarifa Viaja ahora que puedes / Atreviéndose a saltar del Nido
+        // ============================
         if (edad >= 18 && edad <= 25 && trabaja) {
 
             if (viveConPadres &&
@@ -39,6 +47,9 @@ public class TarifaAerea {
             }
         }
 
+        // ============================
+        // 4) Tarifa Conoce Europa / Conoce Europa con tus peques
+        // ============================
         if (edad > 25 &&
                 ingresos > 20000 && ingresos < 35000 &&
                 vuelosAnuales >= 6 &&
@@ -52,6 +63,9 @@ public class TarifaAerea {
             }
         }
 
+        // ============================
+        // 5) Conoce el Mundo / Conoce el Mundo con tus peques
+        // ============================
         if (edad > 25 &&
                 ingresos > 35000 &&
                 vuelosAnuales >= 6 &&
@@ -66,36 +80,10 @@ public class TarifaAerea {
             }
         }
 
+        // ============================
+        // Si no cumple ninguna condición
+        // ============================
         return "Sin tarifa disponible";
-    }
-
-    public static void main(String[] args) {
-
-        TarifaAerea tarifa = new TarifaAerea();
-
-        int edad = 30;
-        int vuelosAnuales = 8;
-        boolean esEstudianteFuera = false;
-        boolean trabaja = true;
-        boolean viveConPadres = false;
-        String clase = "business";
-        String destino = "Asia";
-        double ingresos = 40000;
-        boolean viajaConNinos = true;
-
-        String resultado = tarifa.calcularTarifaAerea(
-                edad,
-                vuelosAnuales,
-                esEstudianteFuera,
-                trabaja,
-                viveConPadres,
-                clase,
-                destino,
-                ingresos,
-                viajaConNinos
-        );
-
-        System.out.println("Tarifa asignada: " + resultado);
     }
 }
 
