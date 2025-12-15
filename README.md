@@ -3,7 +3,7 @@
 La planificación de tareas será:  
  # 🗂️ Planificación de Tareas
 
-| 📌 Problema | 👥 Pareja 1            | 👥 Pareja 2            | 👥 Pareja 3            |
+| 📌 Problema | 👥 Pareja 1: Lucia y Carlos            | 👥 Pareja 2: Mariam y Manuel            | 👥 Pareja 3: Noelia y Roberto            |
 |-------------|------------------------|------------------------|------------------------|
 | **Problema 1** | Implementar programa   | Ejercicio teórico      | Prácticas de laboratorio |
 | **Problema 2** | Prácticas de laboratorio | Implementar programa   | Ejercicio teórico      |
