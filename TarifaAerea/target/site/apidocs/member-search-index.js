@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.tarifa","c":"TarifaAerea","l":"calcularTarifaAerea(int, int, boolean, boolean, boolean, String, String, double, boolean)","u":"calcularTarifaAerea(int,int,boolean,boolean,boolean,java.lang.String,java.lang.String,double,boolean)"},{"p":"com.tarifa","c":"TarifaAerea","l":"TarifaAerea()","u":"%3Cinit%3E()"}];updateSearchResults();
