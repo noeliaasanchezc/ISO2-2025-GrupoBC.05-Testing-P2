@@ -124,7 +124,7 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(30, 6, false, false, false, "business", "Europa", 30000, false));
     }
 
-    // Falla Ingresos (Límite inferior no incluido)
+    // Falla Ingresos sin incluir límite inferior
     @Test
     void testConoceEuropa_FallaIngresosBajos() {
         assertEquals("Sin tarifa disponible",

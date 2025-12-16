@@ -6,7 +6,7 @@ public class TarifaAerea {
 	
     public String calcularTarifaAerea(
             int edad,//Edad del cliente
-            int vuelosAnuales,//Frecuencia de viajes (nº de vuelos al año)
+            int vuelosAnuales,//nº de vuelos al año
             boolean esEstudianteFuera,//Si estudia en otra ciudad
             boolean trabaja,//Si ha empezado a trabajar
             boolean viveConPadres,//Si vive aún con sus padres
