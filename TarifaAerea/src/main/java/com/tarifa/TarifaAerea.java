@@ -2,8 +2,8 @@
 package com.tarifa;
 
  
-public class TarifaAerea {//Calcula la tarifa adecuada según las reglas del problema.
-    
+public class TarifaAerea {
+	
     public String calcularTarifaAerea(
             int edad,//Edad del cliente
             int vuelosAnuales,//Frecuencia de viajes (nº de vuelos al año)
@@ -81,10 +81,9 @@ public class TarifaAerea {//Calcula la tarifa adecuada según las reglas del pro
 
             TarifaAerea tarifa = new TarifaAerea();
 
-            // ===========================
+            
             // PARÁMETROS PREDEFINIDOS
-            // ===========================
-            int edad = 30;
+                        int edad = 30;
             int vuelosAnuales = 8;
             boolean esEstudianteFuera = false;
             boolean trabaja = true;
@@ -94,7 +93,7 @@ public class TarifaAerea {//Calcula la tarifa adecuada según las reglas del pro
             double ingresos = 40000;
             boolean viajaConNinos = true;
 
-            // Llamada al método
+            
             String resultado = tarifa.calcularTarifaAerea(
                     edad,
                     vuelosAnuales,

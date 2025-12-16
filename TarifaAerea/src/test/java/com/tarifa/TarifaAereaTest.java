@@ -13,9 +13,10 @@ public class TarifaAereaTest {
         tarifa = new TarifaAerea();
     }
 
-    // ===================================
+    
+    
     // 1) Tarifa Pajarillo (Edad < 18 y Vuelos Anuales >= 6)
-    // ===================================
+   
     @Test
     void testPajarillo_CondicionesCumplidas() {
         assertEquals("Pajarillo",
@@ -34,9 +35,10 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(17, 5, false, false, true, "turista", "Europa", 0, false));
     }
 
-    // ===================================
+    
+    
     // 2) Tarifa Gorrión (18 <= Edad <= 25, Estudiante, Turista, Vuelos >= 12)
-    // ===================================
+   
     @Test
     void testGorrion_CondicionesCumplidas() {
         assertEquals("Gorrión",
@@ -55,18 +57,17 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(20, 12, true, false, true, "business", "Europa", 0, false));
     }
     
-    // TEST AÑADIDO: Falla Estudiante para cubrir la instrucción 'esEstudianteFuera'
+    // Falla Estudiante para cubrir la instrucción 'esEstudianteFuera'
     @Test
     void testGorrion_FallaEstudiante() {
         assertEquals("Sin tarifa disponible",
                 tarifa.calcularTarifaAerea(20, 12, false, false, true, "turista", "Europa", 0, false));
     }
 
-    // ===================================
+    
     // 3) Bloque Joven Trabajador (18 <= Edad <= 25, Trabaja)
-    // ===================================
 
-    // RAMA 3a: Vive Con Padres, Clase turista, Vuelos >= 3 -> "Viaja ahora que puedes"
+    // Vive Con Padres, Clase turista, Vuelos >= 3 -> "Viaja ahora que puedes"
     @Test
     void testViajaAhoraQuePuedes_CondicionesCumplidas() {
         assertEquals("Viaja ahora que puedes",
@@ -92,18 +93,17 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(23, 2, false, true, false, "turista", "Europa", 0, false));
     }
     
-    // ===================================
+    
     // 4) Bloque Conoce Europa (Edad > 25, Ingresos 20k-35k, Vuelos >= 6, Turista, Destino Europa)
-    // ===================================
-
-    // RAMA 4a: Sin Niños
+    
+    // Sin Niños
     @Test
     void testConoceEuropaSinNinos() {
         assertEquals("Conoce Europa",
                 tarifa.calcularTarifaAerea(30, 6, false, false, false, "turista", "Europa", 30000, false));
     }
 
-    // RAMA 4b: Con Niños
+    // Con Niños
     @Test
     void testConoceEuropaConNinos() {
         assertEquals("Conoce Europa con tus peques",
@@ -145,25 +145,23 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(35, 6, false, false, false, "turista", "Asia", 30000, false));
     }
 
-    // ===================================
+   
     // 5) Bloque Conoce el Mundo (Edad > 25, Ingresos > 35k, Vuelos >= 6, Business, Destino Asia/America)
-    // ===================================
-
-    // RAMA 5a: Sin Niños (Destino Asia)
+    
     @Test
     void testConoceMundoSinNinos_DestinoAsia() {
         assertEquals("Conoce el Mundo",
                 tarifa.calcularTarifaAerea(40, 8, false, true, false, "business", "Asia", 50000, false));
     }
     
-    // RAMA 5a: Sin Niños (Destino America)
+    // Sin Niños (Destino America)
     @Test
     void testConoceMundoSinNinos_DestinoAmerica() {
         assertEquals("Conoce el Mundo",
                 tarifa.calcularTarifaAerea(40, 8, false, true, false, "business", "America", 50000, false));
     }
 
-    // RAMA 5b: Con Niños
+    // Con Niños
     @Test
     void testConoceMundoConNinos() {
         assertEquals("Conoce el Mundo con tus peques",
@@ -198,9 +196,9 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(40, 6, false, false, false, "business", "Oceania", 40000, false));
     }
     
-    // ===================================
+    
     // 6) Sin Tarifa Disponible (Fallo General)
-    // ===================================
+   
 
     @Test
     void testSinTarifaDisponible_FalloGeneral() {
@@ -208,14 +206,13 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(50, 1, false, false, true, "turista", "Europa", 10000, false));
     }
     
-    // ===================================
+  
     // 7) Cobertura de método main
-    // ===================================
+    
     @Test
     void testMainMethodCoverage() {
-        // Llama al método main de la clase TarifaAerea para cubrir las instrucciones
-        // de inicialización de variables y System.out.println.
+        
         TarifaAerea.main(new String[]{});
-        // Este test pasa si no lanza ninguna excepción.
+       
     }
 }
