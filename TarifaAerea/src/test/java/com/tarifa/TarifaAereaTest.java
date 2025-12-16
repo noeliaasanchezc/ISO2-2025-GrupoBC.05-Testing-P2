@@ -86,7 +86,7 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(22, 3, false, true, true, "business", "Europa", 0, false));
     }
 
-    // RAMA 3b: NO Vive Con Padres -> "Atreviéndose a saltar del Nido"
+    // NO Vive Con Padres -> "Atreviéndose a saltar del Nido"
     @Test
     void testAtreviendoseASaltarDelNido_CondicionesCumplidas() {
         assertEquals("Atreviéndose a saltar del Nido",
