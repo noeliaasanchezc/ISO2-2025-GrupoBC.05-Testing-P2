@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-16T12:47:46.761">
+<file name="C:\Users\maria\git\repository2\TarifaAerea\src\main\java\com\tarifa\TarifaAerea.java">
+<violation beginline="5" endline="112" begincolumn="8" endcolumn="5" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="112" begincolumn="8" endcolumn="5" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+The class 'TarifaAerea' has a Modified Cyclomatic Complexity of 6 (Highest = 10).
+</violation>
+<violation beginline="5" endline="112" begincolumn="8" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'TarifaAerea' has a Standard Cyclomatic Complexity of 6 (Highest = 10).
+</violation>
+<violation beginline="7" endline="76" begincolumn="12" endcolumn="5" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+The method 'calcularTarifaAerea' has a Modified Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="7" endline="76" begincolumn="12" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'calcularTarifaAerea' has a Standard Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="7" endline="76" begincolumn="12" endcolumn="5" rule="CognitiveComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'calcularTarifaAerea(int, int, boolean, boolean, boolean, String, String, double, boolean)' has a cognitive complexity of 22, current threshold is 15
+</violation>
+<violation beginline="7" endline="76" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'calcularTarifaAerea(int, int, boolean, boolean, boolean, String, String, double, boolean)' has a cyclomatic complexity of 29.
+</violation>
+<violation beginline="7" endline="76" begincolumn="12" endcolumn="5" rule="NPathComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'calcularTarifaAerea(int, int, boolean, boolean, boolean, String, String, double, boolean)' has an NPath complexity of 12672, current threshold is 200
+</violation>
+<violation beginline="8" endline="8" begincolumn="13" endcolumn="20" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="edad" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'edad' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="13" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="vuelosAnuales" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'vuelosAnuales' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="13" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="esEstudianteFuera" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'esEstudianteFuera' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="13" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="trabaja" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'trabaja' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="13" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="viveConPadres" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'viveConPadres' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="13" endcolumn="24" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="clase" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'clase' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="13" endcolumn="26" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="destino" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'destino' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="13" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="ingresos" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ingresos' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="13" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="viajaConNiños" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'viajaConNiños' is not assigned and could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="21" endcolumn="33" rule="FormalParameterNamingConventions" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" variable="viajaConNiños" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'viajaConNiños' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="20" endline="20" begincolumn="13" endcolumn="31" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="26" endline="26" begincolumn="17" endcolumn="49" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="26" endline="26" begincolumn="17" endcolumn="49" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="28" endline="28" begincolumn="13" endcolumn="29" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="35" endline="35" begincolumn="21" endcolumn="53" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="35" endline="35" begincolumn="21" endcolumn="53" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="37" endline="37" begincolumn="17" endcolumn="48" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="41" endline="41" begincolumn="17" endcolumn="56" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="47" endline="47" begincolumn="28" endcolumn="32" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 20000 should separate every third digit with an underscore
+</violation>
+<violation beginline="47" endline="47" begincolumn="48" endcolumn="52" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 35000 should separate every third digit with an underscore
+</violation>
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="49" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="49" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="50" endline="50" begincolumn="17" endcolumn="50" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="50" endline="50" begincolumn="17" endcolumn="50" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="54" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="55" endline="55" begincolumn="17" endcolumn="39" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="61" endline="61" begincolumn="28" endcolumn="32" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 35000 should separate every third digit with an underscore
+</violation>
+<violation beginline="63" endline="63" begincolumn="17" endcolumn="50" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="63" endline="63" begincolumn="17" endcolumn="50" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="64" endline="64" begincolumn="18" endcolumn="49" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="64" endline="64" begincolumn="18" endcolumn="49" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="65" endline="65" begincolumn="25" endcolumn="59" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="65" endline="65" begincolumn="25" endcolumn="59" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="68" endline="68" begincolumn="17" endcolumn="56" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="70" endline="70" begincolumn="17" endcolumn="41" rule="OnlyOneReturn" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="80" endline="80" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="13" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'tarifa' could be declared final
+</violation>
+<violation beginline="87" endline="87" begincolumn="13" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'edad' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="13" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'vuelosAnuales' could be declared final
+</violation>
+<violation beginline="89" endline="89" begincolumn="13" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'esEstudianteFuera' could be declared final
+</violation>
+<violation beginline="90" endline="90" begincolumn="13" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'trabaja' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="13" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'viveConPadres' could be declared final
+</violation>
+<violation beginline="92" endline="92" begincolumn="13" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'clase' could be declared final
+</violation>
+<violation beginline="93" endline="93" begincolumn="13" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'destino' could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="13" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ingresos' could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="31" endcolumn="35" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 40000 should separate every third digit with an underscore
+</violation>
+<violation beginline="95" endline="95" begincolumn="13" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'viajaConNinos' could be declared final
+</violation>
+<violation beginline="98" endline="108" begincolumn="13" endcolumn="13" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'resultado' could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>

@@ -6,14 +6,14 @@ public class TarifaAerea {
 	
     public String calcularTarifaAerea(
             int edad,//Edad del cliente
-            int vuelosAnuales,//nº de vuelos al año
+            int vuelosAnuales,//nº de vuelos por año
             boolean esEstudianteFuera,//Si estudia en otra ciudad
             boolean trabaja,//Si ha empezado a trabajar
             boolean viveConPadres,//Si vive aún con sus padres
             String clase,//Clase en la que viaja ("turista" o "business")
             String destino,//Destino ("Europa", "Asia", "America")
             double ingresos,//Ingresos anuales
-            boolean viajaConNiños) {//Si viaja con niños menores de 12
+            boolean viajaConNiños) {//viaja con niños menores de 12
 
         // 1) Tarifa Pajarillo
         if (edad < 18 && vuelosAnuales >= 6) {
