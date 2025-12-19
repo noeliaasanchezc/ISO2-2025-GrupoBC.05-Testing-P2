@@ -57,6 +57,7 @@ public class TarifaAereaTest {
                 tarifa.calcularTarifaAerea(20, 12, true, false, true, "business", "Europa", 0, false));
     }
     
+    
     // Falla Estudiante para cubrir la instrucción 'esEstudianteFuera'
     @Test
     void testGorrion_FallaEstudiante() {

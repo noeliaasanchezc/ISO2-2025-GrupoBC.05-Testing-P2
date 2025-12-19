@@ -2,18 +2,18 @@
 package com.tarifa;
 
  
-<span class="fc" id="L5">public class TarifaAerea {//Calcula la tarifa adecuada según las reglas del problema.</span>
-    
+<span class="fc" id="L5">public class TarifaAerea {</span>
+	
     public String calcularTarifaAerea(
             int edad,//Edad del cliente
-            int vuelosAnuales,//Frecuencia de viajes (nº de vuelos al año)
+            int vuelosAnuales,//nº de vuelos por año
             boolean esEstudianteFuera,//Si estudia en otra ciudad
             boolean trabaja,//Si ha empezado a trabajar
             boolean viveConPadres,//Si vive aún con sus padres
             String clase,//Clase en la que viaja (&quot;turista&quot; o &quot;business&quot;)
             String destino,//Destino (&quot;Europa&quot;, &quot;Asia&quot;, &quot;America&quot;)
             double ingresos,//Ingresos anuales
-            boolean viajaConNiños) {//Si viaja con niños menores de 12
+            boolean viajaConNiños) {//viaja con niños menores de 12
 
         // 1) Tarifa Pajarillo
 <span class="fc bfc" id="L19" title="All 4 branches covered.">        if (edad &lt; 18 &amp;&amp; vuelosAnuales &gt;= 6) {</span>
@@ -81,21 +81,20 @@ package com.tarifa;
 
 <span class="fc" id="L82">            TarifaAerea tarifa = new TarifaAerea();</span>
 
-            // ===========================
+            
             // PARÁMETROS PREDEFINIDOS
-            // ===========================
-<span class="fc" id="L87">            int edad = 30;</span>
-<span class="fc" id="L88">            int vuelosAnuales = 8;</span>
-<span class="fc" id="L89">            boolean esEstudianteFuera = false;</span>
-<span class="fc" id="L90">            boolean trabaja = true;</span>
-<span class="fc" id="L91">            boolean viveConPadres = false;</span>
-<span class="fc" id="L92">            String clase = &quot;business&quot;;</span>
-<span class="fc" id="L93">            String destino = &quot;Asia&quot;;</span>
-<span class="fc" id="L94">            double ingresos = 40000;</span>
-<span class="fc" id="L95">            boolean viajaConNinos = true;</span>
+<span class="fc" id="L86">                        int edad = 30;</span>
+<span class="fc" id="L87">            int vuelosAnuales = 8;</span>
+<span class="fc" id="L88">            boolean esEstudianteFuera = false;</span>
+<span class="fc" id="L89">            boolean trabaja = true;</span>
+<span class="fc" id="L90">            boolean viveConPadres = false;</span>
+<span class="fc" id="L91">            String clase = &quot;business&quot;;</span>
+<span class="fc" id="L92">            String destino = &quot;Asia&quot;;</span>
+<span class="fc" id="L93">            double ingresos = 40000;</span>
+<span class="fc" id="L94">            boolean viajaConNinos = true;</span>
 
-            // Llamada al método
-<span class="fc" id="L98">            String resultado = tarifa.calcularTarifaAerea(</span>
+            
+<span class="fc" id="L97">            String resultado = tarifa.calcularTarifaAerea(</span>
                     edad,
                     vuelosAnuales,
                     esEstudianteFuera,
@@ -107,7 +106,7 @@ package com.tarifa;
                     viajaConNinos
             );
 
-<span class="fc" id="L110">            System.out.println(&quot;Tarifa asignada: &quot; + resultado);</span>
-<span class="fc" id="L111">        }</span>
+<span class="fc" id="L109">            System.out.println(&quot;Tarifa asignada: &quot; + resultado);</span>
+<span class="fc" id="L110">        }</span>
     }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

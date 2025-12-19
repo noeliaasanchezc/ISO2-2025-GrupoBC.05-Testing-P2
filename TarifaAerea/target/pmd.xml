@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-16T12:47:46.761">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-12-19T20:17:38.654">
 <file name="C:\Users\maria\git\repository2\TarifaAerea\src\main\java\com\tarifa\TarifaAerea.java">
-<violation beginline="5" endline="112" begincolumn="8" endcolumn="5" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+<violation beginline="5" endline="111" begincolumn="8" endcolumn="5" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
 Each class should declare at least one constructor
 </violation>
-<violation beginline="5" endline="112" begincolumn="8" endcolumn="5" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+<violation beginline="5" endline="111" begincolumn="8" endcolumn="5" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
 The class 'TarifaAerea' has a Modified Cyclomatic Complexity of 6 (Highest = 10).
 </violation>
-<violation beginline="5" endline="112" begincolumn="8" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
+<violation beginline="5" endline="111" begincolumn="8" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
 The class 'TarifaAerea' has a Standard Cyclomatic Complexity of 6 (Highest = 10).
 </violation>
 <violation beginline="7" endline="76" begincolumn="12" endcolumn="5" rule="ModifiedCyclomaticComplexity" ruleset="Design" package="com.tarifa" class="TarifaAerea" method="calcularTarifaAerea" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
@@ -136,40 +136,40 @@ Parameter 'args' is not assigned and could be declared final
 <violation beginline="82" endline="82" begincolumn="13" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'tarifa' could be declared final
 </violation>
-<violation beginline="87" endline="87" begincolumn="13" endcolumn="25" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="86" endline="86" begincolumn="25" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'edad' could be declared final
 </violation>
-<violation beginline="88" endline="88" begincolumn="13" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="87" endline="87" begincolumn="13" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'vuelosAnuales' could be declared final
 </violation>
-<violation beginline="89" endline="89" begincolumn="13" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="88" endline="88" begincolumn="13" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'esEstudianteFuera' could be declared final
 </violation>
-<violation beginline="90" endline="90" begincolumn="13" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="89" endline="89" begincolumn="13" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'trabaja' could be declared final
 </violation>
-<violation beginline="91" endline="91" begincolumn="13" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="90" endline="90" begincolumn="13" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'viveConPadres' could be declared final
 </violation>
-<violation beginline="92" endline="92" begincolumn="13" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="91" endline="91" begincolumn="13" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'clase' could be declared final
 </violation>
-<violation beginline="93" endline="93" begincolumn="13" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="92" endline="92" begincolumn="13" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'destino' could be declared final
 </violation>
-<violation beginline="94" endline="94" begincolumn="13" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="93" endline="93" begincolumn="13" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'ingresos' could be declared final
 </violation>
-<violation beginline="94" endline="94" begincolumn="31" endcolumn="35" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+<violation beginline="93" endline="93" begincolumn="31" endcolumn="35" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
 Number 40000 should separate every third digit with an underscore
 </violation>
-<violation beginline="95" endline="95" begincolumn="13" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="94" endline="94" begincolumn="13" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'viajaConNinos' could be declared final
 </violation>
-<violation beginline="98" endline="108" begincolumn="13" endcolumn="13" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="97" endline="107" begincolumn="13" endcolumn="13" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.tarifa" class="TarifaAerea" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'resultado' could be declared final
 </violation>
-<violation beginline="110" endline="110" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="109" endline="109" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="com.tarifa" class="TarifaAerea" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
 </file>

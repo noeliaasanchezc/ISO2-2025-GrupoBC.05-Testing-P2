@@ -10,18 +10,18 @@
 <a class="jxr_linenumber" name="L2" href="#L2">2</a>   <strong class="jxr_keyword">package</strong> com.tarifa;
 <a class="jxr_linenumber" name="L3" href="#L3">3</a>   
 <a class="jxr_linenumber" name="L4" href="#L4">4</a>    
-<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a name="TarifaAerea" href="../../com/tarifa/TarifaAerea.html#TarifaAerea">TarifaAerea</a> {<em class="jxr_comment">//Calcula la tarifa adecuada según las reglas del problema.</em>
-<a class="jxr_linenumber" name="L6" href="#L6">6</a>       
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a name="TarifaAerea" href="../../com/tarifa/TarifaAerea.html#TarifaAerea">TarifaAerea</a> {
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   	
 <a class="jxr_linenumber" name="L7" href="#L7">7</a>       <strong class="jxr_keyword">public</strong> String calcularTarifaAerea(
 <a class="jxr_linenumber" name="L8" href="#L8">8</a>               <strong class="jxr_keyword">int</strong> edad,<em class="jxr_comment">//Edad del cliente</em>
-<a class="jxr_linenumber" name="L9" href="#L9">9</a>               <strong class="jxr_keyword">int</strong> vuelosAnuales,<em class="jxr_comment">//Frecuencia de viajes (nº de vuelos al año)</em>
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>               <strong class="jxr_keyword">int</strong> vuelosAnuales,<em class="jxr_comment">//nº de vuelos por año</em>
 <a class="jxr_linenumber" name="L10" href="#L10">10</a>              <strong class="jxr_keyword">boolean</strong> esEstudianteFuera,<em class="jxr_comment">//Si estudia en otra ciudad</em>
 <a class="jxr_linenumber" name="L11" href="#L11">11</a>              <strong class="jxr_keyword">boolean</strong> trabaja,<em class="jxr_comment">//Si ha empezado a trabajar</em>
 <a class="jxr_linenumber" name="L12" href="#L12">12</a>              <strong class="jxr_keyword">boolean</strong> viveConPadres,<em class="jxr_comment">//Si vive aún con sus padres</em>
 <a class="jxr_linenumber" name="L13" href="#L13">13</a>              String clase,<em class="jxr_comment">//Clase en la que viaja ("turista" o "business")</em>
 <a class="jxr_linenumber" name="L14" href="#L14">14</a>              String destino,<em class="jxr_comment">//Destino ("Europa", "Asia", "America")</em>
 <a class="jxr_linenumber" name="L15" href="#L15">15</a>              <strong class="jxr_keyword">double</strong> ingresos,<em class="jxr_comment">//Ingresos anuales</em>
-<a class="jxr_linenumber" name="L16" href="#L16">16</a>              <strong class="jxr_keyword">boolean</strong> viajaConNiños) {<em class="jxr_comment">//Si viaja con niños menores de 12</em>
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>              <strong class="jxr_keyword">boolean</strong> viajaConNiños) {<em class="jxr_comment">//viaja con niños menores de 12</em>
 <a class="jxr_linenumber" name="L17" href="#L17">17</a>  
 <a class="jxr_linenumber" name="L18" href="#L18">18</a>          <em class="jxr_comment">// 1) Tarifa Pajarillo</em>
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>          <strong class="jxr_keyword">if</strong> (edad &lt; 18 &amp;&amp; vuelosAnuales &gt;= 6) {
@@ -89,35 +89,34 @@
 <a class="jxr_linenumber" name="L81" href="#L81">81</a>  
 <a class="jxr_linenumber" name="L82" href="#L82">82</a>              <a name="TarifaAerea" href="../../com/tarifa/TarifaAerea.html#TarifaAerea">TarifaAerea</a> tarifa = <strong class="jxr_keyword">new</strong> <a name="TarifaAerea" href="../../com/tarifa/TarifaAerea.html#TarifaAerea">TarifaAerea</a>();
 <a class="jxr_linenumber" name="L83" href="#L83">83</a>  
-<a class="jxr_linenumber" name="L84" href="#L84">84</a>              <em class="jxr_comment">// ===========================</em>
+<a class="jxr_linenumber" name="L84" href="#L84">84</a>              
 <a class="jxr_linenumber" name="L85" href="#L85">85</a>              <em class="jxr_comment">// PARÁMETROS PREDEFINIDOS</em>
-<a class="jxr_linenumber" name="L86" href="#L86">86</a>              <em class="jxr_comment">// ===========================</em>
-<a class="jxr_linenumber" name="L87" href="#L87">87</a>              <strong class="jxr_keyword">int</strong> edad = 30;
-<a class="jxr_linenumber" name="L88" href="#L88">88</a>              <strong class="jxr_keyword">int</strong> vuelosAnuales = 8;
-<a class="jxr_linenumber" name="L89" href="#L89">89</a>              <strong class="jxr_keyword">boolean</strong> esEstudianteFuera = false;
-<a class="jxr_linenumber" name="L90" href="#L90">90</a>              <strong class="jxr_keyword">boolean</strong> trabaja = <strong class="jxr_keyword">true</strong>;
-<a class="jxr_linenumber" name="L91" href="#L91">91</a>              <strong class="jxr_keyword">boolean</strong> viveConPadres = false;
-<a class="jxr_linenumber" name="L92" href="#L92">92</a>              String clase = <span class="jxr_string">"business"</span>;
-<a class="jxr_linenumber" name="L93" href="#L93">93</a>              String destino = <span class="jxr_string">"Asia"</span>;
-<a class="jxr_linenumber" name="L94" href="#L94">94</a>              <strong class="jxr_keyword">double</strong> ingresos = 40000;
-<a class="jxr_linenumber" name="L95" href="#L95">95</a>              <strong class="jxr_keyword">boolean</strong> viajaConNinos = <strong class="jxr_keyword">true</strong>;
-<a class="jxr_linenumber" name="L96" href="#L96">96</a>  
-<a class="jxr_linenumber" name="L97" href="#L97">97</a>              <em class="jxr_comment">// Llamada al método</em>
-<a class="jxr_linenumber" name="L98" href="#L98">98</a>              String resultado = tarifa.calcularTarifaAerea(
-<a class="jxr_linenumber" name="L99" href="#L99">99</a>                      edad,
-<a class="jxr_linenumber" name="L100" href="#L100">100</a>                     vuelosAnuales,
-<a class="jxr_linenumber" name="L101" href="#L101">101</a>                     esEstudianteFuera,
-<a class="jxr_linenumber" name="L102" href="#L102">102</a>                     trabaja,
-<a class="jxr_linenumber" name="L103" href="#L103">103</a>                     viveConPadres,
-<a class="jxr_linenumber" name="L104" href="#L104">104</a>                     clase,
-<a class="jxr_linenumber" name="L105" href="#L105">105</a>                     destino,
-<a class="jxr_linenumber" name="L106" href="#L106">106</a>                     ingresos,
-<a class="jxr_linenumber" name="L107" href="#L107">107</a>                     viajaConNinos
-<a class="jxr_linenumber" name="L108" href="#L108">108</a>             );
-<a class="jxr_linenumber" name="L109" href="#L109">109</a> 
-<a class="jxr_linenumber" name="L110" href="#L110">110</a>             System.out.println(<span class="jxr_string">"Tarifa asignada: "</span> + resultado);
-<a class="jxr_linenumber" name="L111" href="#L111">111</a>         }
-<a class="jxr_linenumber" name="L112" href="#L112">112</a>     }
+<a class="jxr_linenumber" name="L86" href="#L86">86</a>                          <strong class="jxr_keyword">int</strong> edad = 30;
+<a class="jxr_linenumber" name="L87" href="#L87">87</a>              <strong class="jxr_keyword">int</strong> vuelosAnuales = 8;
+<a class="jxr_linenumber" name="L88" href="#L88">88</a>              <strong class="jxr_keyword">boolean</strong> esEstudianteFuera = false;
+<a class="jxr_linenumber" name="L89" href="#L89">89</a>              <strong class="jxr_keyword">boolean</strong> trabaja = <strong class="jxr_keyword">true</strong>;
+<a class="jxr_linenumber" name="L90" href="#L90">90</a>              <strong class="jxr_keyword">boolean</strong> viveConPadres = false;
+<a class="jxr_linenumber" name="L91" href="#L91">91</a>              String clase = <span class="jxr_string">"business"</span>;
+<a class="jxr_linenumber" name="L92" href="#L92">92</a>              String destino = <span class="jxr_string">"Asia"</span>;
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>              <strong class="jxr_keyword">double</strong> ingresos = 40000;
+<a class="jxr_linenumber" name="L94" href="#L94">94</a>              <strong class="jxr_keyword">boolean</strong> viajaConNinos = <strong class="jxr_keyword">true</strong>;
+<a class="jxr_linenumber" name="L95" href="#L95">95</a>  
+<a class="jxr_linenumber" name="L96" href="#L96">96</a>              
+<a class="jxr_linenumber" name="L97" href="#L97">97</a>              String resultado = tarifa.calcularTarifaAerea(
+<a class="jxr_linenumber" name="L98" href="#L98">98</a>                      edad,
+<a class="jxr_linenumber" name="L99" href="#L99">99</a>                      vuelosAnuales,
+<a class="jxr_linenumber" name="L100" href="#L100">100</a>                     esEstudianteFuera,
+<a class="jxr_linenumber" name="L101" href="#L101">101</a>                     trabaja,
+<a class="jxr_linenumber" name="L102" href="#L102">102</a>                     viveConPadres,
+<a class="jxr_linenumber" name="L103" href="#L103">103</a>                     clase,
+<a class="jxr_linenumber" name="L104" href="#L104">104</a>                     destino,
+<a class="jxr_linenumber" name="L105" href="#L105">105</a>                     ingresos,
+<a class="jxr_linenumber" name="L106" href="#L106">106</a>                     viajaConNinos
+<a class="jxr_linenumber" name="L107" href="#L107">107</a>             );
+<a class="jxr_linenumber" name="L108" href="#L108">108</a> 
+<a class="jxr_linenumber" name="L109" href="#L109">109</a>             System.out.println(<span class="jxr_string">"Tarifa asignada: "</span> + resultado);
+<a class="jxr_linenumber" name="L110" href="#L110">110</a>         }
+<a class="jxr_linenumber" name="L111" href="#L111">111</a>     }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2025. All rights reserved.</div>
